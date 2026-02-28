@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Commitment to Excellence</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e9eff5, #e6d7ce);
+    color: #2d3748;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+}
+
+/* LEFT SIDE */
+.left h1 {
+    font-size: 52px;
+    margin-bottom: 30px;
+}
+
+.left p {
+    font-size: 16px;
+    line-height: 1.9;
+    color: #4a5568;
+}
+
+/* RIGHT SIDE */
+.award-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 0;
+    border-bottom: 1px solid #cbd5e0;
+}
+
+.award-item:last-child {
+    border-bottom: none;
+}
+
+.award-number {
+    color: #ff7a00;
+    font-weight: bold;
+    font-size: 18px;
+    width: 40px;
+}
+
+.award-icon img {
+    width: 90px;
+    height: auto;
+}
+
+.award-content h2 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+.award-content p {
+    margin: 0;
+    color: #4a5568;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .left h1 {
+        font-size: 36px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<section class="container">
+
+    <!-- LEFT SIDE -->
+    <div class="left">
+        <h1>Our Commitment to Excellence</h1>
+        <p>
+            Oppty TechHub is a trailblazer in delivering innovative, client-centric
+            solutions that redefine business success in the digital era. From cutting-edge
+            IT services and AI-driven automation to seamless BPO, e-commerce, and web
+            development, we empower organizations to thrive in a competitive landscape.
+            Through our sub-brand, ProCareer.tech, we bridge the gap between academia
+            and industry by equipping students with essential skills and connecting top
+            talent with leading companies across India. Our unwavering commitment to
+            excellence, collaboration, and integrity ensures we create lasting partnerships,
+            driving sustainable growth and transformative outcomes for businesses and
+            individuals alike.
+        </p>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right">
+
+        <div class="award-item">
+            <div class="award-number">#1</div>
+            <div class="award-icon">
+                <img src="award-img-01.png" alt="Awards Symbol">
+            </div>
+            <div class="award-content">
+                <h2>Technology Innovation Award</h2>
+                <p>Oppty TechHub was awarded for pioneering AI and IT solutions, driving digital transformation.</p>
+            </div>
+        </div>
+
+        <div class="award-item">
+            <div class="award-number">#2</div>
+            <div class="award-icon">
+                <img src="image-removebg-preview.png" alt="1st Anniversary">
+            </div>
+            <div class="award-content">
+                <h2>BPO Excellence Recognition</h2>
+                <p>We earned praise for efficient, client-focused BPO services that boost productivity.</p>
+            </div>
+        </div>
+
+        <div class="award-item">
+            <div class="award-number">#3</div>
+            <div class="award-icon">
+                <img src="award-img-03.png" alt="Laurel Wreath">
+            </div>
+            <div class="award-content">
+                <h2>E-commerce Leadership Award</h2>
+                <p>Our innovative e-commerce platforms were recognized for fueling online business growth.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
